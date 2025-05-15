@@ -7,7 +7,7 @@ interface IUser
     void Show();
 }
 
-interface IProduct
+interface IProduct  
 {
     string Name { get; set; }
     double Price { get; set; }
